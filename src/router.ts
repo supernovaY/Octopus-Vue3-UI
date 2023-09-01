@@ -1,4 +1,5 @@
 import {createRouter, createWebHashHistory} from 'vue-router';
+import {h} from 'vue';
 import Home from './views/Home.vue';
 import Doc from './views/Doc.vue';
 import SwitchDemo from './views/Switch/SwitchDemo.vue';
@@ -21,7 +22,6 @@ import InputNumber from './views/InputNumber/InputNumberDemo.vue';
 import SelectDemo from './views/Select/SelectDemo.vue';
 import ContainerDemo from './views/Container/ContainerDemo.vue';
 import TagDemo from './views/Tag/TagDemo.vue';
-import {h} from 'vue';
 import Markdown from './components/common/Markdown.vue';
 import intro from './markdown/intro.md';
 import start from './markdown/start.md';

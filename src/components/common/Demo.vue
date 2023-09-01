@@ -36,6 +36,8 @@
 
     </div>
     <div v-show="codeVisible" class="demo-code">
+      <!--  pre:文本标签 它的作用：所见即所得，在里面编辑的内容，可以完整的显示在html页面中   -->
+      <!--  在页面上用来展示源代码 -->
         <pre class="language-html"
              v-html="html"></pre>
     </div>
@@ -52,7 +54,7 @@ const props = defineProps({
   component: Object,
   descComponent: Object
 });
-
+console.log(123, props);
 const html = computed(() => {
   return Prism.highlight((props.component as any).__sourceCode, Prism.languages.javascript, 'javascript');
 });

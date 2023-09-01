@@ -1,5 +1,4 @@
 <template>
-
   <div class="z-input-number" :class="inputNumberClasses">
     <span ref="leftBtnRef" :class="{'is-disabled':decreaseDisabled}" class="z-inputNumBtn z-inputNum-decrease"
           @click="decreaseNum">
@@ -17,7 +16,6 @@
       <input :disabled="disabled" class="z-input-inner" type="text" :value="modelValue" @blur="toggleInputFocus(false)"
              @focus="toggleInputFocus(true)">
     </div>
-
   </div>
 </template>
 

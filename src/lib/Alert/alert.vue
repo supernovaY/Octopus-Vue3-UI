@@ -82,7 +82,6 @@ function boxFade() {
 
   .closeBtn {
     position: absolute;
-    top: 50%;
     right: 12px;
     transform: translateY(-50%);
     cursor: pointer;

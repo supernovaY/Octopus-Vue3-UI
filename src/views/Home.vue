@@ -3,7 +3,7 @@
     <div class="topNavAndBanner">
       <TopNav/>
       <div class="banner">
-        <h1>ZUI</h1>
+        <h1>Octopus</h1>
         <h2>基于 Vue 3，面向开发者的组件库</h2>
         <p class="actions">
           <router-link to="/doc">查看详情</router-link>

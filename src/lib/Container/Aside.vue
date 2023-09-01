@@ -1,4 +1,5 @@
 <template>
+  <!-- aside: html5标签  -->
   <aside class="z-aside" :style="style">
     <slot></slot>
   </aside>
